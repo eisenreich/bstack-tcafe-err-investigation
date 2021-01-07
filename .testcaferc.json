@@ -1,0 +1,8 @@
+{
+  "screenshots": {
+    "path": "tmp",
+    "takeOnFails": "false",
+    "pathPattern": "screenshots/${DATE}_${TIME}/${TEST_ID}/${RUN_ID}/${USERAGENT}/${FILE_INDEX}.png"
+  },
+  "compilerOptions.typescript.configPath": "tsconfig.json"
+}

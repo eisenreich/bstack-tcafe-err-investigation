@@ -1,0 +1,38 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": ["airbnb-typescript/base", "plugin:prettier/recommended"],
+  "plugins": ["@typescript-eslint"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "test": false,
+    "fixture": false,
+    "Selector": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/no-unresolved": 0,
+    "linebreak-style": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-vars": "warn",
+    "no-plusplus": "off",
+    "no-await-in-loop": "off",
+    "max-classes-per-file": "off",
+    "class-methods-use-this": "off",
+    "no-underscore-dangle": "off",
+    "import/extensions": "off",
+    "lines-between-class-members": "off",
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
+    "no-param-reassign": "off",
+    "@typescript-eslint/lines-between-class-members": "off"
+  }
+}
