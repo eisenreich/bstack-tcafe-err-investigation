@@ -4,4 +4,3 @@ build
 /old/*
 tmp
 *.log
-.env
